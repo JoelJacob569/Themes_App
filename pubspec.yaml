@@ -1,0 +1,29 @@
+name: themes
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0-100.2.beta
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  provider: ^6.1.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Tlogo.png"
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
